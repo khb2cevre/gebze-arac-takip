@@ -52,7 +52,7 @@ export default function LoginPage() {
             <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
           </div>
           <h2 className="text-2xl font-bold text-gray-800">Araç Takip Sistemi</h2>
-          <p className="text-gray-500 text-sm mt-1">KHB-2</p>
+          <p className="text-gray-500 text-sm mt-1">Gebze İlçe Sağlık Müdürlüğü</p>
         </div>
 
         {/* Hata Mesajı */}
