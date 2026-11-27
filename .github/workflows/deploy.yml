@@ -34,8 +34,8 @@ jobs:
         run: npm run build
         env:
           # Anahtarlar doğrudan buraya yazıldı
-          NEXT_PUBLIC_SUPABASE_URL: "https://hyoabvotsvomnjembpvz.supabase.co"
-          NEXT_PUBLIC_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh5b2Fidm90c3ZvbW5qZW1icHZ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUxNTkwNzYsImV4cCI6MjExMDczNTA3Nn0.a577DjA2_cCU9r-1-yn3z7Dgwb8mfVY7fZbG_FZYT_4"
+          NEXT_PUBLIC_SUPABASE_URL: "https://dwgimfnggvzcsvyguhyv.supabase.co"
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImR3Z2ltZm5nZ3Z6Y3N2eWd1aHl2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU3Njc0NzMsImV4cCI6MjExMTM0MzQ3M30.bWOQJTb9CCN_Br6n86Aapm8Rwwdaw4MHAXU15epJ2Qg"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
