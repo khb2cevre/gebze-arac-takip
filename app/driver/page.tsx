@@ -210,7 +210,7 @@ export default function DriverPage() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Gidilecek Yer / Görev Tanımı *</label>
-                <input type="text" required value={destination} onChange={(e) => setDestination(e.target.value)} className="w-full px-4 py-2 rounded-xl border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none" placeholder="Örn: Ümraniye EAH" />
+                <input type="text" required value={destination} onChange={(e) => setDestination(e.target.value)} className="w-full px-4 py-2 rounded-xl border border-gray-300 focus:ring-2 focus:ring-teal-500 outline-none" placeholder="Örn: Kocaeli İl Sağlık Müdürlüğü" />
               </div>
 
               <div>
