@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/arac-takip-sistemi",
-  assetPrefix: "/arac-takip-sistemi/",
+ basePath: "/gebze-arac-takip",
+  assetPrefix: "/gebze-arac-takip/",
   images: {
     unoptimized: true,
   },
