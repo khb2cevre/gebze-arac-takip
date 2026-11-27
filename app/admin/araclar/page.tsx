@@ -82,7 +82,7 @@ export default function AraclarPage() {
           </div>
           <div>
             <h1 className="font-bold text-gray-800 text-sm leading-tight">Araç Takip Sistemi</h1>
-            <p className="text-xs text-gray-500">KHB-2</p>
+            <p className="text-xs text-gray-500">Gebze İlçe Sağlık Müdürlüğü</p>
           </div>
         </div>
 
