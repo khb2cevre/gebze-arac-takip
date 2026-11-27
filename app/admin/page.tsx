@@ -23,7 +23,7 @@ export default function AdminDashboard() {
       try {
         const currentUserStr = localStorage.getItem('currentUser')
         if (!currentUserStr) {
-          window.location.href = '/arac-takip-sistemi/'
+          window.location.href = '/gebze-arac-takip/'
           return
         }
         
@@ -73,7 +73,7 @@ export default function AdminDashboard() {
 
   const handleLogout = () => {
     localStorage.removeItem('currentUser')
-    window.location.href = '/arac-takip-sistemi/'
+    window.location.href = '/gebze-arac-takip/'
   }
 
   if (loading) return <div className="min-h-screen flex items-center justify-center font-bold text-gray-600">Yükleniyor...</div>
