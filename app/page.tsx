@@ -34,10 +34,10 @@ export default function LoginPage() {
     
     // Rolüne göre yönlendir (GitHub Pages basePath uyumlu)
     if (data.role === 'admin') {
-      window.location.href = '/arac-takip-sistemi/admin'
-    } else {
-      window.location.href = '/arac-takip-sistemi/driver'
-    }
+        window.location.href = '/gebze-arac-takip/admin'
+      } else {
+        window.location.href = '/gebze-arac-takip/driver'
+      }
     
     setLoading(false)
   }
