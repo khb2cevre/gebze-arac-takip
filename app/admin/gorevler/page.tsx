@@ -15,7 +15,7 @@ export default function GorevKayitlari() {
       try {
         const currentUserStr = localStorage.getItem('currentUser')
         if (!currentUserStr) {
-          window.location.href = '/arac-takip-sistemi/'
+          window.location.href = '/gebze-arac-takip/'
           return
         }
         const parsedUser = JSON.parse(currentUserStr)
@@ -92,7 +92,7 @@ export default function GorevKayitlari() {
 
   const handleLogout = () => {
     localStorage.removeItem('currentUser')
-    window.location.href = '/arac-takip-sistemi/'
+    window.location.href = '/gebze-arac-takip/'
   }
 
   if (loading) return <div className="min-h-screen flex items-center justify-center">Yükleniyor...</div>
