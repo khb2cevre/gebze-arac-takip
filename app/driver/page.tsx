@@ -25,7 +25,7 @@ export default function DriverPage() {
       try {
         const currentUserStr = localStorage.getItem('currentUser')
         if (!currentUserStr) {
-          window.location.href = '/arac-takip-sistemi/' 
+          window.location.href = '/gebze-arac-takip/' 
           return
         }
         const parsedUser = JSON.parse(currentUserStr)
@@ -66,7 +66,7 @@ export default function DriverPage() {
 
   const handleLogout = () => {
     localStorage.removeItem('currentUser')
-    window.location.href = '/arac-takip-sistemi/' 
+    window.location.href = '/gebze-arac-takip/' 
   }
 
   const handleStartTrip = async (e: React.FormEvent) => {
