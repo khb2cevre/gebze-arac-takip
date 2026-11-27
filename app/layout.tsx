@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Araç Takip Sistemi | KHB-2",
-  description: "KHB-2 Araç Takip Sistemi",
+  title: "Araç Takip Sistemi | Gebze İlçe Sağlık Müdürlüğü",
+  description: "Gebze İlçe Sağlık Müdürlüğü Araç Takip Sistemi",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
